@@ -1,0 +1,1109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+
+/*sec 2-1*/
+
+.section-2-1 {
+    padding: 44px 0px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    display: block;
+}
+
+.section-2-1 h2 {
+    font-size: 30px;
+    color: #4f4f4f;
+}
+
+
+/*section-2-2*/
+
+.dashboard {
+    max-width: 1200px;
+    height: 100%;
+    overflow: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftsidebar {
+    min-height: 100vh;
+    background-color: #1d7a8c;
+    min-width: 260px;
+}
+
+.leftsidebar a {
+    background-clip: padding-box;
+}
+
+.leftsidebar .nav-link {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 18px 15px;
+    background: #1d7a8c;
+    color: #FFFFFF;
+    min-width: 260px;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #146371;
+}
+
+.export {
+    background: #146371;
+    color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    padding: 5px 10px 4px 9px;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.serarea {
+    font-weight: bold;
+    font-size: 15px;
+    color: #646464;
+    padding-left: 15px;
+}
+
+.status-completed {
+    background: #67b644;
+    color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 5px 4px 4px 9px;
+    font-size: 13px;
+}
+
+.status-cancelled {
+    background: #ff6b6b;
+    color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 5px 4px 4px 9px;
+    font-size: 13px;
+}
+
+.status-pending {
+    background: #bdfc0f;
+    color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 5px 10px 4px 9px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.rate-sp {
+    background-color: #0c7286;
+    color: #ffff;
+    border: none;
+    padding: 11px 9px 13px 13px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: point;
+}
+
+.reschedule {
+    background-color: #0c7286;
+    color: #ffff;
+    border: none;
+    padding: 11px 9px 13px 13px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: point;
+}
+
+.cancel {
+    background-color: #ca2020;
+    color: #ffff;
+    border: none;
+    padding: 11px 9px 13px 13px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: point;
+}
+
+.rt {
+    margin-right: -20px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .input-element {
+    width: 100%;
+    height: 45px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    margin: 5px 0 15px 0;
+    padding: 0 0 0 5px;
+    border: 1px solid #E1E1E1;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs #booktime {
+    width: 100%;
+    height: 45px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    margin: 5px 0 15px 0;
+    border: 1px solid #E1E1E1;
+}
+
+.modal .modal-dialog .modal-content .modal-footer .btn-cancelnow,
+.btn-update,
+.btn-ratesp-submit {
+    width: 100%;
+    height: 46px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px 5px;
+    background-color: #0c7286;
+    border: 1px solid #0c7286;
+    border-radius: 23px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .why-cancel {
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .cancel-question {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.modal .modal-dialog .modal-content .modal-header .round-border {
+    width: 60px;
+    height: 60px;
+    padding: 16px 7px;
+    border: 1.5px solid #9C9C9C;
+    border-radius: 50%;
+}
+
+.modal .modal-dialog .modal-content .modal-header .sp-details {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #4F4F4F;
+    margin-bottom: 0;
+}
+
+.ps-2 {
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .rate-service-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .subtext {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #4F4F4F;
+    margin: 10px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .rate-feedback {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .input-element {
+    width: 100%;
+    height: 45px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    margin: 5px 0 15px 0;
+    padding: 0 0 0 5px;
+    border: 1px solid #E1E1E1;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs #booktime {
+    width: 100%;
+    height: 45px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    margin: 5px 0 15px 0;
+    border: 1px solid #E1E1E1;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .rate-service-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .subtext {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #4F4F4F;
+    margin: 10px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .rate-feedback {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .btn-ratesp-submit {
+    width: auto;
+    height: 46px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #1D7A8C;
+    border: 1px solid #1D7A8C;
+    padding: 5px 20px;
+    border-radius: 23px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .btn-ratesp-submit:hover {
+    background-color: #29626D;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .input-group {
+    font-family: 'Roboto';
+    font-size: 16px;
+    opacity: 1;
+    letter-spacing: 0px;
+    margin: 20px 0px;
+    height: 48px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .input-group input {
+    font-family: 'Roboto';
+    font-size: 16px;
+    opacity: 1;
+    letter-spacing: 0px;
+    padding-left: 10px;
+    height: 46px;
+    border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .input-group .input-group-text {
+    margin: -1px -1px -1px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .checkbox-content {
+    display: flex;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .checkbox-content .checkbox {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .checkbox-content label {
+    height: 20px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    padding-left: 10px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .register-inputs .btn-login {
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    background: #1D7A8C;
+    border: 1px solid #1D7A8C;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+    padding: 15px 30px;
+}
+
+.modal-dialog {
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.mod {
+    margin-left: 15px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    font-family: 'Roboto';
+    color: #646464;
+    padding: 15px 30px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .btn-accept {
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 5px 10px;
+    height: 35px;
+    border-radius: 17.5px;
+    color: #FFFFFF;
+    background: #0c830c;
+    border: 1px solid #0c830c;
+}
+
+.modal .modal-dialog .modal-content .modal-body .btn-accept:hover {
+    background: #1d5a01;
+}
+
+.modal .modal-dialog .modal-content .modal-body .btn-cancel {
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 5px 10px;
+    height: 35px;
+    border-radius: 17.5px;
+    color: #FFFFFF;
+    background: #FF6B6B;
+    border: #FF6B6B;
+}
+
+.modal .modal-dialog .modal-content .modal-body .btn-cancel:hover {
+    background: #fD4B4B;
+}
+
+.service-datetime {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    color: #4F4F4F;
+}
+
+.service-detail {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 450;
+    color: #4F4F4F;
+}
+
+.service-detail-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #4F4F4F;
+    margin-left: 15px;
+}
+
+.service-detail-euro {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+    color: #1D7A8C;
+    margin-left: 25px;
+}
+
+.fa-times-circle {
+    font-size: 26px;
+    color: red;
+}
+
+#mod {
+    max-width: 800px;
+}
+
+.ft {
+    justify-content: flex-start;
+}
+
+
+/* .mysetting {
+	display: none;
+} */
+
+.mysetting .btn-setting {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    border-bottom: 2px solid #E1E1E1;
+    color: #4F4F4F;
+    border-radius: 0;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mysetting .btn-setting.active {
+    color: #1D7A8C;
+    border-bottom: 2px solid #1D7A8C;
+    font-size: 18px;
+}
+
+.mysetting .button-body .details-body {
+    font-family: 'Roboto';
+    color: #4F4F4F;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.mysetting .button-body .details-body label {
+    font-weight: 600;
+}
+
+.mysetting .button-body .details-body .input {
+    width: 100%;
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+    margin: 5px 0 15px 0;
+}
+
+.mysetting .button-body .details-body .input-group .input-group-text {
+    width: 54px;
+    height: 46px;
+    border: 1px solid #E1E1E1;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    margin: 5px 0 15px 0;
+}
+
+.mysetting .button-body .details-body .input-group input {
+    width: calc(100% - 54px);
+    height: 46px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #E1E1E1;
+    border-radius: 0 3px 3px 0;
+    padding-left: 15px;
+}
+
+.mysetting .button-body .details-body select {
+    color: #4F4F4F;
+    height: 46px;
+    border: 1px solid #E1E1E1;
+    margin: 5px 10px 15px 0;
+}
+
+.mysetting .button-body .details-body .details-save {
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #1D7A8C;
+    border: 1px solid #1D7A8C;
+    padding: 5px 20px;
+    margin: 20px 0;
+    border-radius: 23px;
+}
+
+.mysetting .button-body .details-body .details-save:hover {
+    background-color: #29626D;
+}
+
+.mysetting .button-body .address-body {
+    font-family: 'Roboto';
+    color: #4F4F4F;
+    display: none;
+}
+
+.mysetting .button-body .address-body .addnewaddress {
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #1D7A8C;
+    border: 1px solid #1D7A8C;
+    padding: 5px 20px;
+    margin: 20px 0;
+    border-radius: 23px;
+}
+
+.mysetting .button-body .address-body .addnewaddress:hover {
+    background-color: #29626D;
+}
+
+.mysetting .button-body .address-body .address-table {
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid #E1E1E1;
+}
+
+@media (max-width: 576px) {
+    .mysetting .button-body .address-body .address-table {
+        border: none !important;
+    }
+    .mysetting .button-body .address-body .address-table thead {
+        display: none;
+    }
+    .mysetting .button-body .address-body .address-table tbody tr {
+        max-width: 300px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto 40px auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 0 0 !important;
+    }
+    .mysetting .button-body .address-body .address-table tbody tr td {
+        text-align: center !important;
+        border: none !important;
+        padding: 15px 15px !important;
+    }
+    .mysetting .button-body .address-body .address-table tbody tr td .addressline {
+        align-items: baseline;
+        padding: 0 0 !important;
+    }
+    .mysetting .button-body .address-body .address-table .text-right div {
+        padding: 0 0 !important;
+    }
+}
+
+.mysetting .button-body .address-body .address-table .text-right {
+    text-align: right;
+}
+
+.mysetting .button-body .address-body .address-table .text-right div {
+    padding: 0 45px;
+}
+
+.mysetting .button-body .address-body .address-table .text-right .fa-edit,
+.fa-trash-alt {
+    color: #A7A2A2;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.mysetting .button-body .address-body .address-table thead {
+    background-color: #E1E1E1;
+}
+
+.mysetting .button-body .address-body .address-table thead th {
+    padding: 20px 60px !important;
+}
+
+.mysetting .button-body .address-body .address-table tbody tr {
+    border-top: 1px solid #E1E1E1;
+}
+
+.mysetting .button-body .address-body .address-table tbody tr td .addressline {
+    display: flex;
+    padding: 0 45px;
+}
+
+.mysetting .button-body .address-body .address-table tbody tr td {
+    padding: 10px 0px;
+}
+
+.mysetting .button-body .password-body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #4F4F4F;
+    font-weight: 500;
+    display: none;
+}
+
+.mysetting .button-body .password-body .password-label {
+    margin: 15px 0 5px 0;
+}
+
+.mysetting .button-body .password-body .password-input {
+    width: 300px;
+    height: 45px;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1;
+}
+
+.mysetting .button-body .password-body .password-save {
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #1D7A8C;
+    border: 1px solid #1D7A8C;
+    padding: 5px 20px;
+    margin: 20px 0;
+    border-radius: 23px;
+}
+
+.mysetting .button-body .password-body .password-save:hover {
+    background-color: #29626D;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.details-body .row .col-md-4 .input-element {
+    width: 160px;
+    height: 46px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    height: 35px;
+    color: #646464;
+    border: 1px solid #E1E1E1;
+    padding: 0px 10px;
+    margin: 16px 10px 0px 0px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .addresslable {
+    font-weight: 600;
+}
+
+.modal .modal-dialog .modal-content .modal-body .input {
+    width: 100%;
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+    margin: 5px 0 15px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .input-group .input-group-text {
+    width: 54px;
+    height: 46px;
+    border: 1px solid #E1E1E1;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    margin: 5px 0 15px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body .input-group input {
+    width: calc(100% - 54px);
+    height: 46px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #E1E1E1;
+    border-radius: 0 3px 3px 0;
+    padding-left: 15px;
+}
+
+.modal .modal-dialog .modal-content .modal-footer .btn-addresssave {
+    width: 100%;
+    height: 46px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #1D7A8C;
+    border: 1px solid #1D7A8C;
+    border-radius: 23px;
+}
+
+.modal .modal-dialog .modal-content .modal-footer .btn-addresssave:hover {
+    background-color: #29626D;
+}
+
+.accept-btn {
+    background: #1D7A8C;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+vertical-nav {
+    margin-left: 1%;
+    /* height: 840px; */
+}
+
+.customerdashboard .nav-tabs a {
+    width: 50%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#account_status {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+
+#account_status span {
+    color: #67b644;
+    font-weight: 400;
+}
+
+.customerdashboard {
+    overflow: auto;
+    padding-left: 15px;
+    margin-right: 1%;
+}
+
+label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.basictitle {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    font-weight: 700;
+    margin: 0 0 15px;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+#nationallity {
+    display: inline-block;
+    padding: 12px 4px;
+    height: 46px;
+    padding-top: 10px;
+    padding-left: 2px;
+    /* width: 25%; */
+}
+
+.radiovalues {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+input[name="Gender"] {
+    width: 17px;
+    height: 14px;
+}
+
+.avtarimg {
+    margin-top: 10px;
+}
+
+.avatarimgs {
+    height: 85px;
+    border-radius: 85px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.avtarimg .active {
+    border: 3px solid #1D7A8c;
+    transition: 0.3s all;
+}
+
+.avtarimage {
+    display: inline-block;
+}
+
+.avtarimage img:hover {
+    cursor: pointer;
+}
+
+div.dt-buttons {
+    float: right;
+    margin-right: 8%;
+    margin-bottom: 2%;
+}
+
+button.dt-button {
+    padding: 6px 10px;
+    font-size: 14px;
+    background: #1d7a8c;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    transition: all .3s ease;
+    padding: 11px 25px;
+    border-radius: 50px;
+}
+
+button.dt-button:hover {
+    background: #146371 !important;
+    border: none;
+    outline: 0 !important;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.vertical-nav {
+    margin-left: 1%;
+}
+
+.payment {
+    /* width: 39px; */
+    height: 29px;
+    color: #1D7A8C;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.usertable {
+    display: initial;
+}
+
+.wrapper {
+    overflow: auto;
+}
+
+.specialmodtext {
+    cursor: pointer;
+}
+
+.dataTables_wrapper {
+    width: 75%;
+}
+
+.btn-completed {
+    background: #1d7a8c;
+    border: none !important;
+    font-size: 16px;
+    /* line-height: 24px; */
+    color: #fff !important;
+    transition: all .3s ease;
+    /* padding: 11px 25px; */
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.cancelled {
+    width: 82px;
+    border-radius: 0%;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #FF6B6B;
+}
+
+.specialmodtext:hover {
+    opacity: 0.8;
+}
+
+.usertable {
+    overflow: hidden;
+    display: initial;
+}
+
+.welcome {
+    margin-bottom: 20px;
+}
+
+.completed {
+    width: 82px;
+    border-radius: 0%;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #67B644;
+}
+
+.btn-completed:hover {
+    transition: 0.3s all;
+    opacity: 1.0;
+}
+
+.date,
+.time {
+    width: max-content;
+}
+
+@media screen and (max-width:1300px) {
+    .dataTables_wrapper {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .dataTables_wrapper {
+        width: 94%;
+    }
+}
+
+.btn-cancel {
+    opacity: 0.9;
+}
+
+.btn-cancel:hover {
+    transition: 0.3s all;
+    opacity: 1;
+}
+
+.table-caption {
+    width: 200px;
+    padding-top: 16px;
+    /* margin: auto; */
+    left: 30%;
+    z-index: 1;
+    position: absolute;
+    display: initial;
+}
+
+@media screen and (max-width:750px) {
+    button.dt-button {
+        float: right;
+    }
+    .table-caption {
+        left: 10%;
+    }
+}
+
+.vertical-nav {
+    margin-left: 1%;
+}
+
+.toppart .dropdown-toggle::after {
+    display: none;
+}
+
+table thead {
+    display: none;
+}
+
+table.dataTable.no-footer {
+    border: none;
+}
+
+.wrapper {
+    overflow: auto;
+}
+
+.dataTables_wrapper {
+    width: 75%;
+}
+
+.usertable {
+    overflow: hidden;
+    display: initial;
+}
+
+.welcome {
+    margin-bottom: 20px;
+}
+
+.toppart .dropdown-menu.show {
+    transform: translate3d(-220px, 36px, 0px);
+}
+
+.toppart .btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.date,
+.time {
+    width: max-content;
+}
+
+@media screen and (max-width:1300px) {
+    .dataTables_wrapper {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .dataTables_wrapper {
+        width: 94%;
+    }
+}
+
+.ratingsall {
+    display: flex;
+    padding: 8px 8px;
+}
+
+.fa-star {
+    padding-top: 3px;
+}
+
+.rs {
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.ratig {
+    width: -webkit-fill-available !important;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid #9BA0A3;
+    display: inline-block;
+    width: 78%;
+    margin: 10px;
+}
+
+.vertical-nav {
+    margin-left: 1%;
+}
+
+.fa-star {
+    color: silver;
+}
+
+.cname {
+    padding-left: 30px;
+}
+
+@media screen and (max-width:1326px) {
+    .ratig {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .ratig {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .ratig {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .ratingsall {
+        flex-direction: column;
+    }
+    .secondcol,
+    .thirdcol {
+        margin-top: 15%;
+    }
+    .thirdcol {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .secondcol,
+    .thirdcol {
+        margin-top: 25%;
+    }
+}
